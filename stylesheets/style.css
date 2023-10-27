@@ -1,0 +1,42 @@
+@import "reset.css";
+@import "fonts.css";
+@import "first_screen.css";
+@import "second_screen.css";
+@import "third_screen.css";
+@import "fourth_screen.css";
+@import "fifth_screen.css";
+@import "sixth_screen.css";
+@import "seventh_screen.css";
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  width: 1440px;
+  background: black;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+
+p {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 190px;
+  color: black;
+  margin-left: 390px;
+  margin-top: -100px;
+}
+
+h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-size: 97px;
+  color: white;
+  margin-left: 80px;
+}

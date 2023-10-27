@@ -1,0 +1,77 @@
+.seventh_screen {
+  background-image: url("../images/train.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  height: 1960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket_quote_group {
+  display: flex;
+  width: 640px;
+  height: 402px;
+  background-image: url("../images/ticket3.svg");
+  background-repeat: no-repeat;
+  transform: rotate(-8.7deg);
+  position: relative;
+  left: 650px;
+  top: 40px;
+}
+
+.ticket_quote_group_text {
+  align-self: center;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 99px;
+}
+
+.ticket_quote_group_count {
+  align-self: center;
+  font-size: 60px;
+  transform: rotate(90deg);
+  margin-left: -23px;
+}
+
+.credits_group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  height: 200px;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.credits_group_text {
+  font-size: 48px;
+  line-height: 32px;
+  color: white;
+}
+
+.glyphs {
+  position: relative;
+  top: 250px;
+  left: 650px;
+}
+
+.crime_solved_group {
+  width: 495px;
+  height: 104px;
+  transform: rotate(8deg);
+  border: 3px solid #e46171;
+  display: flex;
+  position: relative;
+  top: 1250px;
+  left: 400px;
+}
+
+.crime_solved_group_text {
+  font-size: 66px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #e46171;
+  align-self: center;
+  margin: 0 auto;
+}

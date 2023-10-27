@@ -1,0 +1,81 @@
+.first_screen {
+  height: 1426px;
+  background-image: url("../images/landscape.svg");
+}
+
+.ticket_group {
+  display: flex;
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 187px;
+  position: relative;
+}
+
+#group1 {
+  background-image: url("../images/ticket1.svg");
+  transform: rotate(9deg);
+  left: -20px;
+}
+
+#group2 {
+  background-image: url("../images/ticket2.svg");
+  transform: rotate(33deg);
+  left: -105px;
+  top: -20px;
+}
+
+.ticket_group_text,
+.ticket_group_count {
+  align-self: center;
+}
+
+.ticket_group_text {
+  font-size: 43px;
+  margin-left: 25px;
+}
+
+.ticket_group_count {
+  font-size: 36px;
+  margin-right: -10px;
+  transform: rotate(90deg);
+}
+
+.confident_group {
+  display: flex;
+  width: 517px;
+  height: 104px;
+  transform: rotate(-26deg);
+  border: 3px solid #e46171;
+  position: relative;
+  left: 900px;
+  top: -300px;
+}
+
+.confident_group_text {
+  color: #e46171;
+  font-size: 66px;
+  font-weight: 900;
+  text-transform: uppercase;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.about_group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 260px;
+  left: 750px;
+}
+
+.about_group_title {
+  color: black;
+  margin: 0;
+}
+
+.about_group_text {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 14px;
+}

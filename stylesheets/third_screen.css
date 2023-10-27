@@ -1,0 +1,48 @@
+.third_screen {
+  width: 1440px;
+  height: 1050px;
+}
+
+.magnifier {
+  position: relative;
+  top: -2650px;
+  left: 450px;
+}
+
+.capital_a {
+  font-weight: 500;
+  font-size: 681px;
+  color: white;
+  position: relative;
+  top: -1160px;
+  left: 280px;
+}
+
+.small_a {
+  font-weight: 500;
+  font-size: 681px;
+  color: white;
+  position: relative;
+  top: -1910px;
+  left: 839px;
+}
+
+.angle_text {
+  font-weight: 400;
+  font-size: 27px;
+  color: white;
+  position: relative;
+  top: -1545px;
+  left: 710px;
+  line-height: 32px;
+}
+
+.serifs_text {
+  font-weight: 400;
+  font-size: 27px;
+  color: white;
+  position: relative;
+  top: -1940px;
+  left: 533px;
+  line-height: 32px;
+}

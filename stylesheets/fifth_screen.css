@@ -1,0 +1,27 @@
+.fifth_screen {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .puzzles_group {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-image: url("../images/puzzles.svg");
+    width: 1355px;
+    height: 832px;
+  }
+  
+  .puzzle_p {
+    width: fit-content;
+    height: fit-content;
+    font-size: 56px;
+    line-height: 76.22px;
+  }
+  
+  .puzzles1,
+  .puzzles2,
+  .puzzles3 {
+    display: flex;
+  }
+  

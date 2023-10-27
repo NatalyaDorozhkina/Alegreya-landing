@@ -1,0 +1,92 @@
+.fourth_screen {
+  height: 1670px;
+  margin-top: 40px;
+}
+
+.history_text {
+  margin-left: 349px;
+  margin-top: 35px;
+  width: 480px;
+  height: 260px;
+  font-weight: 400;
+  font-size: 27px;
+  color: white;
+  line-height: 32px;
+}
+
+.puaro,
+.knife,
+.question,
+.newspaper_group,
+.pencil {
+  position: relative;
+}
+
+.puaro {
+  background-image: url("../images/puaro.svg");
+  background-repeat: no-repeat;
+  top: -800px;
+  width: 650px;
+  height: 1030px;
+}
+
+.question {
+  top: 150px;
+  left: 250px;
+  font-weight: 400;
+  font-size: 262px;
+  color: black;
+  transform: rotate(7deg);
+}
+
+.knife {
+  width: 811px;
+  height: 782px;
+  top: -470px;
+  right: -630px;
+}
+
+.pencil {
+  width: 345px;
+  height: 285px;
+  top: -1450px;
+  right: -1000px;
+}
+
+.newspaper_group {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 522px;
+  height: 716px;
+  transform: rotate(-33deg);
+  top: -1750px;
+  right: -580px;
+}
+
+.newspaper_group_title,
+.newspaper_group_content,
+.newspaper_group_label {
+  margin: 0 auto;
+}
+
+.newspaper_group_title {
+  font-weight: bold;
+  font-size: 78px;
+  color: black;
+  width: 450px;
+  margin-top: 40px;
+}
+
+.newspaper_group_content {
+  width: 450px;
+  height: 307px;
+  margin-top: 40px;
+}
+
+.newspaper_group_label {
+  width: 450px;
+  height: 55px;
+  margin-top: 15px;
+  background-color: #8f8e8e;
+}
